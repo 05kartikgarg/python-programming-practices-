@@ -1,0 +1,6 @@
+#check if character is upercase or lowercase
+n=input("enter the character\n")
+if 'A'<n<'Z':
+	print("uppercase")
+else:
+	print("lowercase")
