@@ -1,0 +1,11 @@
+
+#to calculate gross salary
+sal=int(input("enter the basic salary\n"))
+if sal<=10000:
+	gs=sal+(sal/10)
+elif 10000<sal<=20000:
+	gs=sal+(sal/5)
+else:
+	gs=sal+(sal*0.3)
+print("gross salary= ",gs)
+
