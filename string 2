@@ -1,0 +1,14 @@
+n=int(input("enter the  number of word\n"))
+l=[]
+while n!=0:
+    s=input("enter the word\n")
+    l.append(s)
+    n=n-1
+print(l)
+max=len(l[0])
+for x in range(len(l)):
+    f=len(l[x])
+    if max<f:
+        max=f
+        g=x
+print(l[g])
