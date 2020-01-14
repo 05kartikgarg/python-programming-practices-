@@ -1,0 +1,8 @@
+#count the number of characters
+s=input("enter the word\n")
+c=input("enter the char\n")
+count=0
+for x in s:
+    if x==c:
+        count+=1
+print("count= ",count)
