@@ -1,0 +1,10 @@
+
+#occurences of all characters in string
+s=input("enter the word\n")
+d = {} 
+for i in s:
+    if i in d:
+        d[i] += 1
+    else:
+        d[i] = 1
+print ("Count of all characters in Given word  is :\n "+ str(d)) 
