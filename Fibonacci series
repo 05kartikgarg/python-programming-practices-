@@ -1,0 +1,9 @@
+n=int(input("enter the number.\n"))
+a,b=0,1
+print("fibonacci series is: ")
+print(a,end=" ")
+print(b,end=" ")
+for x in range(2,n+1):
+  sum=a+b
+  a,b=b,x
+  print(sum,end=" ")
